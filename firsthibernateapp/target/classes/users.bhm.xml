@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	
+	<class name="org.fi.hibernate.firsthibernateapp.entity.Users" table="user_0030">
+	<id name="userName" column="UserName" type="java.lang.String"/>
+	
+	<property name="password" column="password" type="java.lang.String"></property>
+	<property name="name" column="Name" type="java.lang.String"></property>
+	<property name="email" column="Email" type="java.lang.String"></property>
+	<property name="city" column="City" type="java.lang.String"></property>
+
+	</class>
+</hibernate-mapping>
